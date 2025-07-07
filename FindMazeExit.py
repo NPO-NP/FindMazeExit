@@ -2,7 +2,6 @@
 # 0 is a valid space
 # 9 is a wall, you cannot move past it
 # 1 is the exit, your goal
-# 5 is visited location
 # can only move left, right, up and down
 
 # 2 test mazes for you to verify your code
@@ -30,7 +29,6 @@ STARTY = 3      # starting row
 
 WALL = 9        # constants to represent the meaning of the values
 EXIT = 1        
-SPACE = 0       
-VISITED = 5    
+SPACE = 0        
 
 # Your code should display something like: Exit found at 0,2
